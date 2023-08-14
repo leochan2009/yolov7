@@ -1,0 +1,7 @@
+train: ./Aslanian_Exalt_1/images/train
+val: ./Aslanian_Exalt_1/images/valid
+test: ./Aslanian_Exalt_1/images/test
+
+# Classes
+nc: 1  # number of classes
+names: ['Papilla']  # class names

@@ -38,7 +38,7 @@ def test(data,
          wandb_logger=None,
          compute_loss=None,
          half_precision=True,
-         trace=False,
+         trace=True,
          is_coco=False,
          v5_metric=False):
     # Initialize/load model and set device
